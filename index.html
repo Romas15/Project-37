@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyD4aywLUvxn6mql-y6dWc_-Ee3T2mReP1g",
+        authDomain: "virtual-pet-ee7ab.firebaseapp.com",
+        databaseURL: "https://virtual-pet-ee7ab.firebaseio.com",
+        projectId: "virtual-pet-ee7ab",
+        storageBucket: "virtual-pet-ee7ab.appspot.com",
+        messagingSenderId: "341090077453",
+        appId: "1:341090077453:web:06d0a7c7f1553775727e44",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <script src="Food.js"></script>
+  </body>
+</html>
